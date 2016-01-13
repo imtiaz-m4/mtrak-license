@@ -1,0 +1,35 @@
+/local.properties
+
+# https://github.com/github/gitignore/blob/master/Gradle.gitignore
+/gradle/
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+# IntelliJ IDEA [http://gary-rowe.com/agilestack/2012/10/12/a-gitignore-file-for-intellij-and-eclipse-with-maven]
+/.idea/
+*.iml
+*.iws
+*.ipr
+
+.DS_Store
+Thumbs.db
+
+# Android [https://github.com/github/gitignore/blob/master/Android.gitignore]
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+gen/
+/*/build/
+proguard/
+
+# Android Studio [https://github.com/github/gitignore/blob/master/Android.gitignore]
+captures/
+.navigation/
+.signing/
